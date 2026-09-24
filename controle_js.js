@@ -131,12 +131,6 @@
         carregarArquivo(fileInput.files[0]);
     });
 
-    // Evento: quando arquivo selecionado
-    fileInput.addEventListener("change", function(){
-        if(fileInput.files.length > 0){
-            carregarArquivo(fileInput.files[0]);
-        }
-    });
 
     // -----------------------------------------------------------------------
     // Salvar em memória (download do arquivo)
